@@ -1,0 +1,149 @@
+/*
+    Mobile Menu Core Style
+*/
+
+.slicknav_btn {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    float: right;
+    padding: 0.438em 0.625em;
+    line-height: 1.125em;
+    cursor: pointer;
+    margin: 5px 5px 6px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    background-color: #222222;
+    border-radius: 4px;
+}
+
+.slicknav_menu {
+    font-size: 16px;
+    background: #4c4c4c;
+    padding: 5px;
+}
+
+/* Button Text */
+.slicknav_menu .slicknav_menutxt {
+    display: block;
+    line-height: 1.188em;
+    float: left;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 0 1px 3px #000;
+}
+
+.slicknav_menu .slicknav_icon {
+    float: left;
+    margin: 0.188em 0 0 0.438em;
+}
+
+.slicknav_menu .slicknav_no-text {
+    margin: 0;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    display: block;
+    width: 1.125em;
+    height: 0.125em;
+    background-color: #f5f5f5;
+    border-radius: 1px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Space between icon bars */
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+    margin-top: 0.188em;
+}
+
+/* Main Navigation */
+.slicknav_nav {
+    clear: both;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875em;
+    list-style: none;
+    overflow: hidden;
+}
+
+/* Submenu styles */
+.slicknav_nav ul, .slicknav_nav li {
+    display: block;
+    padding: 0;
+}
+
+.slicknav_nav ul {
+    margin: 0 0 0 20px;
+}
+
+/* Arrow icon for submenus */
+.slicknav_nav .slicknav_arrow {
+    font-size: 0.8em;
+    margin: 0 0 0 0.4em;
+}
+
+.slicknav_nav .slicknav_item {
+    display: block;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 2px 5px;
+}
+
+.slicknav_nav a {
+    display: block;
+    padding: 5px 10px;
+    margin: 2px 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Remove padding/margin for nested menu links */
+.slicknav_nav .slicknav_item a {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.slicknav_nav .slicknav_item:hover, .slicknav_nav a:hover {
+    border-radius: 6px;
+    background: #ccc;
+    color: #222;
+}
+
+/* Text indent for nested items */
+.slicknav_nav .slicknav_txtnode {
+    margin-left: 15px;
+}
+
+/* clearfix for menu */
+.slicknav_menu:before, .slicknav_menu:after {
+    content: " ";
+    display: table;
+}
+
+.slicknav_menu:after {
+    clear: both;
+}
+
+/* IE6/7 support */
+.slicknav_menu {
+    *zoom: 1;
+}
+
+/* Enhanced Button Style */
+.slicknav_btn {
+    border-radius: 4px;
+    background-color: #222222;
+}
+
+/* Enhanced Button Text */
+.slicknav_menu .slicknav_menutxt {
+    color: #FFF;
+    font-weight: bold;
+}
+
+/* Button Lines */
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #f5f5f5;
+}
